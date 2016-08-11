@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+ - "ruby-2.2.3"
+ - "ruby-2.2.4"
+ - "ruby-2.3.0"
+
+env:
+  - DB=mysql
+  - DB=postgres
+
+before_script:
+  - mysql -e 'create database wice_grid_test'
+  - psql -c 'create database wice_grid_test' -U postgres
+  - cp config/database.travis.yml config/database.yml
+  - RAILS_ENV=test bundle exec rake db:migrate db:seed
