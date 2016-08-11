@@ -30,7 +30,7 @@ gem 'sprockets', '2.11.0' # http://stackoverflow.com/questions/22392862/undefine
 gem 'coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
- gem 'therubyracer'
+gem 'therubyracer', platforms: :ruby
 
 gem 'uglifier', '>= 1.0.3'
 
