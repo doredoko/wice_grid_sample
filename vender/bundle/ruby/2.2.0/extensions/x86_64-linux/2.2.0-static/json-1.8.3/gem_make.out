@@ -1,4 +1,0 @@
-/usr/local/src/rbenv/versions/2.2.5/bin/ruby -r ./siteconf20160811-9601-1ckeen9.rb extconf.rb
-creating Makefile
-
-Text file busy @ unlink_internal - ./siteconf20160811-9601-1ckeen9.rb

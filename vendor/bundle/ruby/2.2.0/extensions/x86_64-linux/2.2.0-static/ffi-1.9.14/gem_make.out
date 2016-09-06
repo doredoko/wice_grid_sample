@@ -1,4 +1,4 @@
-/usr/local/src/rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160811-18908-3olldg.rb extconf.rb
+/usr/local/src/rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160811-22348-pku1me.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for rb_thread_blocking_region()... no
@@ -8,4 +8,4 @@ checking for ffi_prep_cif_var()... no
 creating extconf.h
 creating Makefile
 
-Text file busy @ unlink_internal - ./siteconf20160811-18908-3olldg.rb
+Text file busy @ unlink_internal - ./siteconf20160811-22348-pku1me.rb

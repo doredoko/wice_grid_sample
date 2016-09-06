@@ -9,12 +9,13 @@
 /.bundle
 
 # Ignore the default SQLite database.
-#/db/*.sqlite3
-/vendor
+/db/*.sqlite3
+
+/vendor/
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
 .DS_Store
-/public/assets/*
+#/public/assets/*
 
 #config/database.yml

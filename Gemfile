@@ -1,9 +1,11 @@
 # encoding: utf-8
 source 'https://rubygems.org'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem 'rails', '4.2.4'
 
-gem 'annotate', git: 'git://github.com/ctran/annotate_models.git'
+gem 'annotate', git: 'https://github.com/ctran/annotate_models.git'
+
 gem 'faker'
 gem 'coderay'
 gem 'haml'

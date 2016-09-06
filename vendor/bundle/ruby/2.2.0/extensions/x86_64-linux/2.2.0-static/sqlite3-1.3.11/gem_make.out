@@ -1,4 +1,4 @@
-/usr/local/src/rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160811-18908-16hlyrz.rb extconf.rb
+/usr/local/src/rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160811-22348-v25ndz.rb extconf.rb
 checking for sqlite3.h... yes
 checking for sqlite3_libversion_number() in -lsqlite3... yes
 checking for rb_proc_arity()... yes
@@ -14,4 +14,4 @@ checking for sqlite3_int64 in sqlite3.h... yes
 checking for sqlite3_uint64 in sqlite3.h... yes
 creating Makefile
 
-Text file busy @ unlink_internal - ./siteconf20160811-18908-16hlyrz.rb
+Text file busy @ unlink_internal - ./siteconf20160811-22348-v25ndz.rb
